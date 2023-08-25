@@ -10,7 +10,8 @@ public class IndexController {
 	
 	@GetMapping("/")
 	public String getIndex() {
-		return "index";
+		System.out.println("Index 요청");
+		return "한글홈";
 	}
 
 }
